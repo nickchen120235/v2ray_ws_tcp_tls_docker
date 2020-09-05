@@ -9,8 +9,8 @@
 - Copy the following files to the current directory
 ```
 - config.json for v2ray
-- fullchain.pem or equivalent certificate file
-- privkey.pem or equivalent private key file
+- fullchain.pem for Let's Encrypt or equivalent certificate file
+- privkey.pem for Let's Encrypt or equivalent private key file
 ```
 ### Build the image
 ```
@@ -27,8 +27,8 @@ docker run -d -p 443:443 --name v2ray v2ray
 - 複製下列檔案到本地資料夾
 ```
 - config.json v2ray 的設定檔
-- fullchain.pem 或可以使用的憑證檔
-- privkey.pem 或可以使用的憑證密鑰檔
+- Let's Encrypt 的 fullchain.pem 或可以使用的憑證檔
+- Let's Encrypt 的 privkey.pem 或可以使用的憑證密鑰檔
 ```
 ### 建立映像檔
 ```
