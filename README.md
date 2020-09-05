@@ -1,7 +1,8 @@
 # v2ray WebSocket + TCP + TLS Docker
 ## Languages / 語言
 - <a href=https://github.com/nickchen120235/v2ray_ws_tcp_tls_docker#before-building>English</a>
-- <a href>中文</a>
+- <a href=https://github.com/nickchen120235/v2ray_ws_tcp_tls_docker#%E5%9C%A8%E5%BB%BA%E7%AB%8B%E6%98%A0%E5%83%8F%E6%AA%94%E4%B9%8B%E5%89%8D>中文</a>
+---
 ### Before building
 - Open port **443** on your host machine
 - Set correct *ServerName* in **virtualhost.conf**
